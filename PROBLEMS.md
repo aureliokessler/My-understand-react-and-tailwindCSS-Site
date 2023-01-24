@@ -31,6 +31,7 @@ To the [BlogPage.jsx](src/pages/BlogPage.jsx) file.
 * I would like to build in https://webauthn.io so that I can then blog posts and projects. But I have no idea about it and wonder if it would be safe enough if I would use this https://github.com/MasterKale/SimpleWebAuthn for it (is linked on the webauthn page).
 * Save blog posts to the MySQL database or just save an .md file to the server and retrieve it? How can I then process that in reactjs? What makes sense here?
 * How I want to integrate projects I haven't thought about yet.
+* add i18n support for multi language support.
 
 ## Backend
 
