@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTiktok, faYoutube, faTwitch } from '@fortawesome/free-brands-svg-icons'
 
-export default function Fooder( { navigationLeft  = [], socialMediaLinks = [] } ) {
+export default function FooderView( { navigationLeft  = [], socialMediaLinks = [] } ) {
     return (
         <div className="bg-lime-50">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -18,13 +18,13 @@ export default function Fooder( { navigationLeft  = [], socialMediaLinks = [] } 
                         ))}
                     </div>
                     <div className="flex">
-                        <a href="https://www.youtube.com/@aureliokessler" className="text-gray-500 hover:text-black px-2 text-lg">
+                        <a className="text-gray-500 hover:text-black px-2 text-lg" href="https://www.youtube.com/@aureliokessler">
                             <FontAwesomeIcon icon={faYoutube} />
                         </a>
-                        <a href="https://www.tiktok.com/@aureliokessler" className="text-gray-500 hover:text-black px-2 text-lg">
+                        <a className="text-gray-500 hover:text-black px-2 text-lg" href="https://www.tiktok.com/@aureliokessler">
                             <FontAwesomeIcon icon={faTiktok} />
                         </a>
-                        <a href="https://www.twitch.tv/aureliokessler" className="text-gray-500 hover:text-black px-2 text-lg">
+                        <a className="text-gray-500 hover:text-black px-2 text-lg" href="https://www.twitch.tv/aureliokessler">
                             <FontAwesomeIcon icon={faTwitch} />
                         </a>
                     </div>
